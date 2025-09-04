@@ -9,10 +9,7 @@ def char2int(char):
 
 str = input()
 
-alphabet_check = []
-
-for i in range(ord('z')-ord('a') + 1):
-    alphabet_check.append(-1)
+alphabet_check = [-1] * 26
 
 #print(len(alphabet_check))
 
