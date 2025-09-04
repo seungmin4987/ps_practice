@@ -15,7 +15,7 @@ for num in data:
 rem_set = set(rem)
 
 count = 0
-print(rem_set)
+#print(rem_set)
 for num in rem_set:
     count+=1
 
